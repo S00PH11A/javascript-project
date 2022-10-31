@@ -12,14 +12,6 @@ function App() {
       } return numbersDoubled;
   }
 
-  function trippler(numbers) {
-    let numbersDoubled = [];
-     for(let i=0; i<numbers.length; i+=1){
-        let oldNum = numbers[i];
-        let newNum = oldNum * 3;
-        numbersDoubled = numbersDoubled.concat(newNum);
-      } return numbersDoubled;
-  }
 
   console.log(trippler([2,4,5,6]));
 
