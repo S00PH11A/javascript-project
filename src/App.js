@@ -13,7 +13,7 @@ function App() {
   }
 
 
-  console.log(trippler([2,4,5,6]));
+  console.log(doubler([2,4,5,6]));
 
   return (
     <div className="App">
