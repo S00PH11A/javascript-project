@@ -3,7 +3,7 @@ import './App.css';
 
 function App() {
 
-  function doubler(numbers) {
+  function doubling(numbers) {
     let numbersDoubled = [];
      for(let i=0; i<numbers.length; i+=1){
         let oldNum = numbers[i];
@@ -13,7 +13,7 @@ function App() {
   }
 
 
-  console.log(doubler([2,4,5,6]));
+  console.log(doubling([2,4,5,6]));
 
   return (
     <div className="App">
